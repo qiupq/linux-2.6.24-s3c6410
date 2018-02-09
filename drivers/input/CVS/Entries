@@ -1,0 +1,20 @@
+/Kconfig/1.2/Sun Mar 16 23:55:05 2008//
+/Makefile/1.2/Sun Mar 16 23:55:12 2008//
+/evbug.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/evdev.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/ff-core.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/ff-memless.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/fixp-arith.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/input-polldev.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/input.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/joydev.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/mousedev.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/tsdev.c/1.1/Fri Mar 14 06:31:29 2008//
+D/gameport////
+D/joystick////
+D/keyboard////
+D/misc////
+D/mouse////
+D/serio////
+D/tablet////
+D/touchscreen////

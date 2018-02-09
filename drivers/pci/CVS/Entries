@@ -1,0 +1,31 @@
+/.gitignore/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/Kconfig/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/Makefile/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/access.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/bus.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/dmar.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/hotplug.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/htirq.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/intel-iommu.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/intel-iommu.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/iova.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/iova.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/msi.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/msi.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pci-acpi.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pci-driver.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pci-sysfs.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pci.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pci.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/probe.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/proc.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/quirks.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/remove.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/rom.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/search.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/setup-bus.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/setup-irq.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/setup-res.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/syscall.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+D/hotplug////
+D/pcie////

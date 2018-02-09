@@ -1,0 +1,19 @@
+/Makefile/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/au1xxx_irqmap.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/clocks.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/cputable.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/dbdma.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/dbg_io.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/dma.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/gpio.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/irq.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/pci.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/platform.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/power.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/prom.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/puts.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/reset.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/setup.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/sleeper.S/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/time.c/1.1.1.1/Mon Feb 18 02:22:55 2008//
+D

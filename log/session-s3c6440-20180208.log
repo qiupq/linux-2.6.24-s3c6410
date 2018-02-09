@@ -1,0 +1,631 @@
+﻿connect:[20180208_15:27:03]
+K
+
+U-Boot 1.1.6 (Mar 14 2017 - 11:18:18) for SMDK6410
+
+****************************************
+**    u-boot 1.1.6                    **
+**    Updated for OK6410  TE6410 Board  **
+**    Version (2012-09-23)          **
+**    OEM: Forlinx Embedded           **
+**    Web: http://www.witech.com.cn   **
+****************************************
+
+CPU:     S3C6410 @532MHz
+         Fclk = 532MHz, Hclk = 133MHz, Pclk = 66MHz, Serial = CLKUART (SYNC Mode) 
+Board:   SMDK6410
+DRAM:    128 MB
+Flash:   0 kB
+NandFlash Information:
+Manufactor ID:0
+dev_id ID:0 
+3th is = 0
+dev_id=0,childType=0 
+select s3c_nand_oob_mlc_64
+No NAND device found!!!
+NandFlash Size is 0 MB 
+SD/MMC:  SD 2.0 SDHC / Manufacturer: 0x58,OEM: "DD/DDINC",REV: 3.0,S/N: 16879601,DATE: 2015/10
+         SDHC size: 3796 MiB
+         Freq = 50MHz
+In:      serial
+Out:     lcd
+Err:     lcd
+Hit any key to stop autoboot:  0 
+
+###################### User Menu for OK6410#####################
+[1] Format the nand flash
+[2] Burn image from SD card
+[3] Burn image from USB
+[4] Reboot the u-boot
+[5] Exit to command line
+-----------------------------Select---------------------------------
+Enter your Selection: 
+
+###################### User Menu for OK6410#####################
+[1] Format the nand flash
+[2] Burn image from SD card
+[3] Burn image from USB
+[4] Reboot the u-boot
+[5] Exit to command line
+-----------------------------Select---------------------------------
+Enter your Selection:5
+SMDK6410 # 
+SMDK6410 # fatload mmc 0:1 0x50008000 zImag
+reading zImag
+
+** Unable to read "zImag" from mmc 0:1 **
+K
+
+U-Boot 1.1.6 (Mar 14 2017 - 11:18:18) for SMDK6410
+
+****************************************
+**    u-boot 1.1.6                    **
+**    Updated for OK6410  TE6410 Board  **
+**    Version (2012-09-23)          **
+**    OEM: Forlinx Embedded           **
+**    Web: http://www.witech.com.cn   **
+****************************************
+
+CPU:     S3C6410 @532MHz
+         Fclk = 532MHz, Hclk = 133MHz, Pclk = 66MHz, Serial = CLKUART (SYNC Mode) 
+Board:   SMDK6410
+DRAM:    128 MB
+Flash:   0 kB
+NandFlash Information:
+Manufactor ID:0
+dev_id ID:0 
+3th is = 0
+dev_id=0,childType=0 
+select s3c_nand_oob_mlc_64
+No NAND device found!!!
+NandFlash Size is 0 MB 
+SD/MMC:  SD 2.0 SDHC / Manufacturer: 0x58,OEM: "DD/DDINC",REV: 3.0,S/N: 16879601,DATE: 2015/10
+         SDHC size: 3796 MiB
+         Freq = 50MHz
+In:      serial
+Out:     lcd
+Err:     lcd
+Hit any key to stop autoboot:  0 
+
+###################### User Menu for OK6410#####################
+[1] Format the nand flash
+[2] Burn image from SD card
+[3] Burn image from USB
+[4] Reboot the u-boot
+[5] Exit to command line
+-----------------------------Select---------------------------------
+Enter your Selection:5
+SMDK6410 # 
+SMDK6410 # fatload mmc 0:1 0x50008000 zImage-v0
+reading zImage-v0
+
+6757220 bytes read
+SMDK6410 # bootm 50008000
+Boot with zImage
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+Linux version 2.6.38.8-EddySun (qpq@qpq-1404) (gcc version 4.4.5 (crosstool-NG 1.13.0) ) #714 PREEMPT Mon Mar 13 14:10:32 CST 2017
+CPU: ARMv6-compatible processor [410fb766] revision 6 (ARMv7), cr=00c5387f
+CPU: VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+Machine: SMDK6410
+Ignoring unrecognised tag 0x54410008
+Memory policy: ECC disabled, Data cache writeback
+CPU S3C6410 (id 0x36410101)
+S3C24XX Clocks, Copyright 2004 Simtec Electronics
+camera: no parent clock specified
+S3C64XX: PLL settings, A=532000000, M=532000000, E=24000000
+S3C64XX: HCLK2=266000000, HCLK=133000000, PCLK=66500000
+mout_apll: source is fout_apll (1), rate is 532000000
+mout_epll: source is epll (1), rate is 24000000
+mout_mpll: source is mpll (1), rate is 532000000
+mmc_bus: source is mout_epll (0), rate is 24000000
+mmc_bus: source is mout_epll (0), rate is 24000000
+mmc_bus: source is mout_epll (0), rate is 24000000
+usb-bus-host: source is clk_48m (0), rate is 48000000
+uclk1: source is dout_mpll (1), rate is 66500000
+spi-bus: source is mout_epll (0), rate is 24000000
+spi-bus: source is mout_epll (0), rate is 24000000
+audio-bus: source is mout_epll (0), rate is 24000000
+audio-bus: source is mout_epll (0), rate is 24000000
+audio-bus: source is mout_epll (0), rate is 24000000
+irda-bus: source is mout_epll (0), rate is 24000000
+camera: no parent clock specified
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 28448
+Kernel command line: console=ttySAC0,115200 root=/dev/ram,read-write mem=112M init=/linuxrc
+PID hash table entries: 512 (order: -1, 2048 bytes)
+Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Memory: 112MB = 112MB total
+Memory: 97856k/97856k available, 16832k reserved, 0K highmem
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+    DMA     : 0xff600000 - 0xffe00000   (   8 MB)
+    vmalloc : 0xc7800000 - 0xf6000000   ( 744 MB)
+    lowmem  : 0xc0000000 - 0xc7000000   ( 112 MB)
+    modules : 0xbf000000 - 0xc0000000   (  16 MB)
+      .init : 0xc0008000 - 0xc0ac7000   (11004 kB)
+      .text : 0xc0ac7000 - 0xc0f047bc   (4342 kB)
+      .data : 0xc0f06000 - 0xc0f34900   ( 187 kB)
+SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+NR_IRQS:246
+VIC @f6000000: id 0x00041192, vendor 0x41
+VIC @f6010000: id 0x00041192, vendor 0x41
+Console: colour dummy device 80x30
+console [ttySAC0] enabled
+Calibrating delay loop... 530.84 BogoMIPS (lpj=2654208)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 512
+CPU: Testing write buffer coherency: ok
+NET: Registered protocol family 16
+s3c64xx_dma_init: Registering DMA channels
+PL080: IRQ 73, at c7808000, channels 0..8
+PL080: IRQ 74, at c780c000, channels 8..16
+S3C6410: Initialising architecture
+bio: create slab <bio-0> at 0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+s3c-i2c s3c2440-i2c.0: slave address 0x10
+s3c-i2c s3c2440-i2c.0: bus frequency set to 64 KHz
+s3c-i2c s3c2440-i2c.0: i2c-0: S3C I2C adapter
+s3c-i2c s3c2440-i2c.1: slave address 0x10
+s3c-i2c s3c2440-i2c.1: bus frequency set to 64 KHz
+s3c-i2c s3c2440-i2c.1: i2c-1: S3C I2C adapter
+NET: Registered protocol family 2
+IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+TCP: Hash tables configured (established 4096 bind 4096)
+TCP reno registered
+UDP hash table entries: 256 (order: 0, 4096 bytes)
+UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+NET: Registered protocol family 1
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+NetWinder Floating Point Emulator V0.97 (extended precision)
+nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+NTFS driver 2.1.30 [Flags: R/W].
+JFFS2 version 2.2. (NAND) 漏 2001-2006 Red Hat, Inc.
+ROMFS MTD (C) 2007 Red Hat, Inc.
+msgmni has been set to 191
+io scheduler noop registered
+io scheduler deadline registered
+io scheduler cfq registered (default)
+===================pixclk:44232
+--------------pixckl:44232
+=========================================pixclk=44232, clk=133000000, div=5 (26600000)
+**************clkdiv:5***************
+--------------pixckl:44232
+=========================================pixclk=44232, clk=133000000, div=5 (26600000)
+**************clkdiv:5***************
+Console: switching to colour frame buffer device 80x30
+s3c-fb s3c-fb: window 0: fb 
+Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+s3c6400-uart.0: ttySAC0 at MMIO 0x7f005000 (irq = 16) is a S3C6400/10
+s3c6400-uart.1: ttySAC1 at MMIO 0x7f005400 (irq = 20) is a S3C6400/10
+s3c6400-uart.2: ttySAC2 at MMIO 0x7f005800 (irq = 24) is a S3C6400/10
+s3c6400-uart.3: ttySAC3 at MMIO 0x7f005c00 (irq = 28) is a S3C6400/10
+GOOD! ADC initiated OK!
+Good! BackLight(PWM) initialized Successfully!
+GOOD! ECT initiated OK!
+brd: module loaded
+loop: module loaded
+S3C24XX NOR FLASH DEVICE: 0x10000000 at 0x0 
+S3C24XX NAND Driver, (c) 2004 Simtec Electronics
+s3c24xx-nand s3c6400-nand: Tacls=3, 22ns Twrph0=8 60ns, Twrph1=3 22ns
+s3c24xx-nand s3c6400-nand: NAND hardware ECC
+No NAND device found.
+dm9000 Ethernet Driver, V1.31
+eth0: dm9000a at c786e000,c7872004 IRQ 111 MAC: 00:12:34:56:78:ab (eeprom)
+console [netcon0] enabled
+netconsole: network logging started
+usbmon: debugfs is not available
+ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+s3c2410-ohci s3c2410-ohci: S3C24XX OHCI
+s3c2410-ohci s3c2410-ohci: new USB bus registered, assigned bus number 1
+s3c2410-ohci s3c2410-ohci: irq 79, io mem 0x74300000
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: S3C24XX OHCI
+usb usb1: Manufacturer: Linux 2.6.38.8-EddySun ohci_hcd
+usb usb1: SerialNumber: s3c24xx
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 2 ports detected
+usbcore: registered new interface driver usblp
+Initializing USB Mass Storage driver...
+usbcore: registered new interface driver usb-storage
+USB Mass Storage support registered.
+usbcore: registered new interface driver libusual
+usbcore: registered new interface driver ums-datafab
+usbcore: registered new interface driver ums-freecom
+usbcore: registered new interface driver ums-isd200
+usbcore: registered new interface driver ums-usbat
+usbcore: registered new interface driver usbserial
+USB Serial support registered for generic
+usbcore: registered new interface driver usbserial_generic
+usbserial: USB Serial Driver core
+USB Serial support registered for FTDI USB Serial Device
+usbcore: registered new interface driver ftdi_sio
+ftdi_sio: v1.6.0:USB FTDI Serial Converters Driver
+mousedev: PS/2 mouse device common for all mice
+S3C24XX RTC, (c) 2004,2006 Simtec Electronics
+s3c-rtc s3c64xx-rtc: rtc disabled, re-enabling
+s3c-rtc s3c64xx-rtc: rtc core: registered s3c as rtc0
+s3c-rtc s3c64xx-rtc: warning: invalid RTC value so initializing it
+i2c /dev entries driver
+Linux video capture interface: v2.00
+usbcore: registered new interface driver uvcvideo
+USB Video Class driver (v1.0.0)
+S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics
+s3c2410-wdt s3c2410-wdt: watchdog inactive, reset disabled, irq enabled
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+s3c-sdhci s3c-sdhci.0: clock source 0: hsmmc (133000000 Hz)
+s3c-sdhci s3c-sdhci.0: clock source 1: hsmmc (133000000 Hz)
+s3c-sdhci s3c-sdhci.0: clock source 2: mmc_bus (24000000 Hz)
+mmc0: mmc_rescan_try_freq: trying to init card at 400000 Hz
+mmc0: SDHCI controller on samsung-hsmmc [s3c-sdhci.0] using ADMA
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+TCP cubic registered
+NET: Registered protocol family 17
+Registering the dns_resolver key type
+VFP support v0.3: implementor 41 architecture 1 part 20 variant b rev 5
+s3c-rtc s3c64xx-rtc: setting system clock to 2000-01-01 00:00:00 UTC (946684800)
+Freeing init memory: 11004K
+mmc0: new high speed SDHC card at address 0007
+mmcblk0: mmc0:0007 DDINC 3.70 GiB 
+ mmcblk0: p1
+Can not find MAC FILE
+eth0: link down
+mount: mounting /dev/mmcblk0p2 on /jffs2 failed: No such file or directory
+mount: mounting /dev/mmcblk0p3 on /tmp failed: No such file or directory
+mount: mounting /dev/mtdblock5 on /opt failed: No such file or directory
+chmod: /jffs2/Main: No such file or directory
+chmod: /jffs2/ET/ET: No such file or directory
+chmod: /jffs2/ET/ECTN: No such file or directory
+chmod: /jffs2/ET/EMS: No such file or directory
+/etc/init.d/rcS: line 75: /jffs2/Main: not found
+[root@(none):/]#eth0: link up, 100Mbps, full-duplex, lpa 0xCDE1
+cd /mmc/shell;./burn.sh
+-rwxr-xr-x    1   3495680 Jan  1 00:00 /mmc/zImage
+-rwxr-xr-x    1   3496820 Jan  1 00:00 /mmc/zImage
+[root@(none):shell]#cd /mmc/shell;./burn.sh
+-rwxr-xr-x    1   3496820 Jan  1 00:00 /mmc/zImage
+mount: mounting 192.168.1.141:/home/nfs on nfs failed: Device or resource busy
+-rwxr-xr-x    1   3496820 Jan  1 00:00 /mmc/zImage
+[root@(none):shell]#虨||饊K
+
+U-Boot 1.1.6 (Mar 14 2017 - 11:18:18) for SMDK6410
+
+****************************************
+**    u-boot 1.1.6                    **
+**    Updated for OK6410  TE6410 Board  **
+**    Version (2012-09-23)          **
+**    OEM: Forlinx Embedded           **
+**    Web: http://www.witech.com.cn   **
+****************************************
+
+CPU:     S3C6410 @532MHz
+         Fclk = 532MHz, Hclk = 133MHz, Pclk = 66MHz, Serial = CLKUART (SYNC Mode) 
+Board:   SMDK6410
+DRAM:    128 MB
+Flash:   0 kB
+NandFlash Information:
+Manufactor ID:0
+dev_id ID:0 
+3th is = 0
+dev_id=0,childType=0 
+select s3c_nand_oob_mlc_64
+No NAND device found!!!
+NandFlash Size is 0 MB 
+SD/MMC:  SD 2.0 SDHC / Manufacturer: 0x58,OEM: "DD/DDINC",REV: 3.0,S/N: 16879601,DATE: 2015/10
+         SDHC size: 3796 MiB
+         Freq = 50MHz
+In:      serial
+Out:     lcd
+Err:     lcd
+Hit any key to stop autoboot:  0 
+reading zImage
+
+3496820 bytes read
+Boot with zImage
+
+Starting kernel ...
+
+Uncompressing Linux................................................................................................................................................................ done, booting the kernel.
+[    0.000000] Linux version 2.6.24.2-g8820375c (qpq@qpq-cu64) (gcc version 4.4.5 (crosstool-NG 1.13.0) ) #36 Thu Feb 8 15:26:22 CST 2018
+[    0.000000] CPU: ARMv6-compatible processor [410fb766] revision 6 (ARMv7), cr=00c5387f
+[    0.000000] Machine: SMDK6410
+[    0.000000] Ignoring unrecognised tag 0x00000000
+[    0.000000] Ignoring unrecognised tag 0x54410008
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] CPU S3C6410 (id 0x36410101)
+[    0.000000] S3C6410: core 532.000 MHz, memory 133.000 MHz, peripheral 66.500 MHz
+[    0.000000] S3C6410: EPLL 192.000 MHz
+[    0.000000] S3C64XX Clocks, (c) 2007 Samssung Electronics
+[    0.000000] CPU0: D VIPT write-back cache
+[    0.000000] CPU0: I cache: 16384 bytes, associativity 4, 32 byte lines, 128 sets
+[    0.000000] CPU0: D cache: 16384 bytes, associativity 4, 32 byte lines, 128 sets
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 21336
+[    0.000000] Kernel command line: initrd=0x51000000,0x800000  console=ttySAC0,115200 root=/dev/ram rw mem=84M init=/linuxrc
+[    0.000000] Trying to install chained interrupt handler for IRQ0
+[    0.000000] Trying to install chained interrupt handler for IRQ1
+[    0.000000] Trying to install chained interrupt handler for IRQ32
+[    0.000000] Trying to install chained interrupt handler for IRQ33
+[    0.000000] PID hash table entries: 512 (order: 9, 2048 bytes)
+[    0.000000] timer tcon=00600000, tcnt 103c3, tcfg 00000400,00000000, usec 00001340
+[    0.000000] Console: colour dummy device 80x30
+[    0.000000] console [ttySAC0] enabled
+[    0.005000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.010000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.025000] Memory: 84MB = 84MB total
+[    0.025000] Memory: 71704KB available (2852K code, 330K data, 2008K init)
+[    0.150000] Mount-cache hash table entries: 512
+[    0.150000] CPU: Testing write buffer coherency: ok
+[    0.155000] net_namespace: 64 bytes
+[    0.160000] NET: Registered protocol family 16
+[    0.175000] s3c6410: Initialising architecture
+[    0.175000] S3C DMA-pl080 Controller Driver, (c) 2006-2007 Samsung Electronics
+[    0.180000] Total 32 DMA channels will be initialized.
+[    0.205000] SCSI subsystem initialized
+[    0.205000] usbcore: registered new interface driver usbfs
+[    0.210000] usbcore: registered new interface driver hub
+[    0.215000] usbcore: registered new device driver usb
+[    0.245000] NET: Registered protocol family 2
+[    0.295000] IP route cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.295000] TCP established hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.300000] TCP bind hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.305000] TCP: Hash tables configured (established 4096 bind 4096)
+[    0.310000] TCP reno registered
+[    0.920000] checking if image is initramfs...it isn't (bad gzip magic numbers); looks like an initrd
+[    0.970000] Freeing initrd memory: 8192K
+[    0.970000] NetWinder Floating Point Emulator V0.97 (double precision)
+[    0.980000] JFFS2 version 2.2. (NAND) 漏 2001-2006 Red Hat, Inc.
+[    0.980000] io scheduler noop registered
+[    0.985000] io scheduler anticipatory registered (default)
+[    0.990000] io scheduler deadline registered
+[    0.995000] io scheduler cfq registered
+[    1.000000] S3C_LCD clock got enabled :: 133.000 Mhz
+[    1.015000] LCD TYPE :: LTE480WV will be initialized
+[    1.135000] Window[0] - FB1: map_video_memory: clear ff200000:000bb800
+[    1.140000]             FB1: map_video_memory: dma=53f00000 cpu=ff200000 size=000bb800
+[    1.155000] Console: switching to colour frame buffer device 100x30
+[    1.170000] fb0: s3cfb frame buffer device
+[    1.550000] lp: driver loaded but no devices found
+[    1.555000] ppdev: user-space parallel port driver
+[    1.555000] Serial: 8250/16550 driver $Revision: 1.1.1.1 $ 4 ports, IRQ sharing enabled
+[    1.565000] s3c-uart.0: s3c_serial0 at MMIO 0x7f005000 (irq = 37) is a S3C
+[    1.565000] s3c-uart.1: s3c_serial1 at MMIO 0x7f005400 (irq = 38) is a S3C
+[    1.570000] s3c-uart.2: s3c_serial2 at MMIO 0x7f005800 (irq = 39) is a S3C
+[    1.575000] s3c-uart.3: s3c_serial3 at MMIO 0x7f005c00 (irq = 40) is a S3C
+[    1.585000] RAMDISK driver initialized: 1 RAM disks of 20480K size 1024 blocksize
+[    1.595000] loop: module loaded
+[    1.595000] cs89x0:cs89x0_probe(0x0)
+[    1.595000] cs89x0: no cs8900 or cs8920 detected.  Be sure to disable PnP with SETUP
+[    1.600000] Invalid chip endian 0x080
+[    1.600000] smc911x: not found (-19).
+[    1.605000] Driver 'sd' needs updating - please use bus_type methods
+[    1.615000] S3C NAND Driver, (c) 2007 Samsung Electronics
+[    1.620000] Unknown NAND Device.
+[    1.620000] spi /dev entries driver
+[    1.625000] S3C64XX SPI Driver 
+[    1.630000] hspi registers c5868000 (c3e6c780, c04cfd30)
+[    1.635000] hspi irq resource c04cfd4c (48)
+[    1.635000] s3c2410-spi s3c2410-spi.0: s3c2410-spi.0: S3C SPI adapter
+[    1.640000] s3c2410-spi.0: S3C SPI adapter
+[    1.640000] hspi registers c5866000 (c3e6c6e0, c04cfd70)
+[    1.645000] hspi irq resource c04cfd8c (49)
+[    1.645000] s3c2410-spi s3c2410-spi.1: s3c2410-spi.1: S3C SPI adapter
+[    1.650000] s3c2410-spi.1: S3C SPI adapter
+[    1.655000] s3c2410-ohci s3c2410-ohci: S3C OHCI
+[    1.660000] s3c2410-ohci s3c2410-ohci: new USB bus registered, assigned bus number 1
+[    1.665000] s3c2410-ohci s3c2410-ohci: irq 47, io mem 0x74300000
+[    1.730000] usb usb1: configuration #1 chosen from 1 choice
+[    1.730000] hub 1-0:1.0: USB hub found
+[    1.730000] hub 1-0:1.0: 2 ports detected
+[    1.840000] otg_dbg: in s3c6410_otg_module_init()::00223 => s3c6410_otg_module_init 
+[    1.840000] otg_dbg: in s3c6410_otg_drv_probe()::00054 => s3c6410_otg_drv_probe 
+[    1.850000] otg_dbg: in otg_hcd_init_modules()::00047 => OTGHCD_InitModuless 
+[    1.860000] s3c6410_OTGHCD s3c6410_OTGHCD: S3C6410 OTGHCD
+[    1.860000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS
+[    1.865000] s3c6410_OTGHCD s3c6410_OTGHCD: new USB bus registered, assigned bus number 2
+[    1.870000] s3c6410_OTGHCD s3c6410_OTGHCD: irq 58, io mem 0x7c000000
+[    1.875000] otg_dbg: in s3c6410_otghcd_start()::00120 => s3c6410_otghcd_start 
+[    1.880000] otg_dbg: in s3c6410_otghcd_start()::00126 => OTG HCD Has Root Hub
+[    1.885000] otg_dbg: in otg_usbcore_resume_roothub()::00246 => otg_usbcore_resume_roothub 
+[    2.045000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS
+[    2.050000] usb usb2: configuration #1 chosen from 1 choice
+[    2.055000] hub 2-0:1.0: USB hub found
+[    2.060000] otg_dbg: in root_hub_feature()::00238 => case GetHubDescriptor
+[    2.065000] hub 2-0:1.0: 1 port detected
+[    2.070000] otg_dbg: in root_hub_feature()::00251 => case GetHubStatus
+[    2.075000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[    2.185000] otg_dbg: in s3c6410_otg_drv_probe()::00132 => OTG HCD Initialized HCD, bus=EMSP OTG Controller, usbbus=2
+[    2.190000] Initializing USB Mass Storage driver...
+[    2.195000] usbcore: registered new interface driver usb-storage
+[    2.200000] USB Mass Storage support registered.
+[    2.205000] mice: PS/2 mouse device common for all mice
+[    2.210000] S3C Touchscreen driver, (c) 2008 Samsung Electronics
+[    2.215000] S3C TouchScreen got loaded successfully : 12 bits
+[    2.220000] input: S3C TouchScreen as /class/input/input0
+[    2.275000] S3C24XX RTC, (c) 2004,2006 Simtec Electronics
+[    2.275000] s3c2410-rtc s3c2410-rtc: rtc disabled, re-enabling
+[    2.280000] s3c2410-rtc s3c2410-rtc: rtc core: registered s3c as rtc0
+[    2.285000] i2c /dev entries driver
+[    2.290000] s3c2410-i2c s3c2410-i2c: slave address 0x10
+[    2.295000] s3c2410-i2c s3c2410-i2c: bus frequency set to 129 KHz
+[    2.300000] s3c2410-i2c s3c2410-i2c: i2c-0: S3C I2C adapter
+[    2.305000] S3C2410 Watchdog Timer, (c) 2004 Simtec Electronics
+[    2.310000] s3c2410-wdt s3c2410-wdt: watchdog inactive, reset disabled, irq enabled
+[    2.315000] [s3c_hsmmc_probe]: s3c-hsmmc.0: at 0xc6000000 with irq 56. clk src: sclk_DOUTmpll_mmc0
+[    2.340000] s3c-hsmmc: card inserted.
+[    2.340000] [s3c_hsmmc_probe]: s3c-hsmmc.1: at 0xc6200000 with irq 57. clk src: sclk_DOUTmpll_mmc1
+[    2.345000] s3c-hsmmc: probe of s3c-hsmmc.2 failed with error -16
+[    2.350000] usbcore: registered new interface driver usbhid
+[    2.355000] drivers/hid/usbhid/hid-core.c: v2.6:USB HID core driver
+[    2.360000] TCP cubic registered
+[    2.365000] NET: Registered protocol family 1
+[    2.370000] RPC: Registered udp transport module.
+[    2.370000] RPC: Registered tcp transport module.
+[    2.375000] s3c2410-rtc s3c2410-rtc: setting system clock to 2000-01-01 00:00:30 UTC (946684830)
+[    2.380000] Freeing init memory: 2008K
+
+
+[   10.545000] otg_dbg: in process_port_intr()::00263 => 
+[   10.545000] Port Interrupt() : HPRT = 0x21403
+[   10.545000] otg_dbg: in process_port_intr()::00282 => 
+[   10.545000] Port Interrupt() : HPRT = 0x21402
+[   10.550000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010101 CSC PPS CCS
+[   10.745000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   10.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   10.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   10.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   10.800000] usb 1-2: new full speed USB device using s3c2410-ohci and address 2
+[   10.800000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.805000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.815000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.890000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   10.945000] usb 1-2: device descriptor read/64, error -62
+[   11.020000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.020000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.020000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.050000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.050000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.055000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.130000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.185000] usb 1-2: device descriptor read/64, error -62
+[   11.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.360000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.415000] usb 1-2: new full speed USB device using s3c2410-ohci and address 3
+[   11.415000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.420000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.430000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.505000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.560000] usb 1-2: device descriptor read/64, error -62
+[   11.665000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.665000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.670000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.745000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.800000] usb 1-2: device descriptor read/64, error -62
+[   11.975000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   12.020000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.020000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.020000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.030000] usb 1-2: new full speed USB device using s3c2410-ohci and address 4
+[   12.035000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.245000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.450000] usb 1-2: device not accepting address 4, error -62
+[   12.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.525000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   12.585000] usb 1-2: new full speed USB device using s3c2410-ohci and address 5
+[   12.585000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.795000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   13.000000] usb 1-2: device not accepting address 5, error -62
+[   13.000000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.000000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+[   13.005000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.005000] otg_dbg: in root_hub_feature()::00363 => case USB_PORT_FEAT_INDICATOR
+[   13.130000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.130000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+[   13.135000] otg_dbg: in process_port_intr()::00263 => 
+[   13.135000] Port Interrupt() : HPRT = 0x100d
+[   13.135000] otg_dbg: in process_port_intr()::00282 => 
+[   13.135000] Port Interrupt() : HPRT = 0x1008
+[   13.250000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.250000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+[   13.255000] usb 2-1: new high speed USB device using s3c6410_OTGHCD and address 2
+[   13.260000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.260000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+[   13.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   13.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   13.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   13.375000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.375000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+[   13.380000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   13.385000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   13.415000] usb 2-1: configuration #1 chosen from 1 choice
+[   13.425000] scsi0 : SCSI emulation for USB Mass Storage devices
+[   13.440000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS
+[   13.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   13.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   13.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   13.560000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.560000] otg_dbg: in root_hub_feature()::00213 => case ClearPortFeature -USB_PORT_FEAT_C_ENABLE 
+[   18.080000] otg_dbg: in process_port_intr()::00263 => 
+[   18.080000] Port Interrupt() : HPRT = 0x1008
+[   18.080000] otg_dbg: in process_port_intr()::00282 => 
+[   18.080000] Port Interrupt() : HPRT = 0x1008
+[   18.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   18.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   18.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   18.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   18.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   18.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   18.275000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   18.275000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+[   18.280000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   18.280000] otg_dbg: in root_hub_feature()::00213 => case ClearPortFeature -USB_PORT_FEAT_C_ENABLE 
+[   18.285000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   18.290000] usb 2-1: USB disconnect, address 2
+[   18.295000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.305000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.315000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.325000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.470000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   18.470000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS
+disable_tty

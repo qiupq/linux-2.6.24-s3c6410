@@ -1,0 +1,26 @@
+/Kconfig/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/Makefile/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/agp.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/ali-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/alpha-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/amd-k7-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/amd64-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/ati-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/backend.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/compat_ioctl.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/compat_ioctl.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/efficeon-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/frontend.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/generic.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/hp-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/i460-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/intel-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/isoch.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/nvidia-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/parisc-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/sgi-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/sis-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/sworks-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/uninorth-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/via-agp.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+D

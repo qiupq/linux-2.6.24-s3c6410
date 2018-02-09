@@ -1,0 +1,152 @@
+
+[   10.545000] otg_dbg: in process_port_intr()::00263 => 
+[   10.545000] Port Interrupt() : HPRT = 0x21403
+[   10.545000] otg_dbg: in process_port_intr()::00282 => 
+[   10.545000] Port Interrupt() : HPRT = 0x21402
+[   10.550000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010101 CSC PPS CCS
+[   10.745000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   10.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   10.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   10.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   10.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   10.800000] usb 1-2: new full speed USB device using s3c2410-ohci and address 2
+[   10.800000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.805000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.815000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   10.890000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   10.945000] usb 1-2: device descriptor read/64, error -62
+[   11.020000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.020000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.020000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.020000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.050000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.050000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.055000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.130000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.185000] usb 1-2: device descriptor read/64, error -62
+[   11.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.360000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.415000] usb 1-2: new full speed USB device using s3c2410-ohci and address 3
+[   11.415000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.420000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.430000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.505000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.560000] usb 1-2: device descriptor read/64, error -62
+[   11.665000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.665000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.670000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0in 5ec20000 cc 5 --> status -62
+[   11.745000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   11.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   11.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   11.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   11.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   11.800000] usb 1-2: device descriptor read/64, error -62
+[   11.975000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   12.020000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.020000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.020000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.020000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.030000] usb 1-2: new full speed USB device using s3c2410-ohci and address 4
+[   12.035000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.245000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.450000] usb 1-2: device not accepting address 4, error -62
+[   12.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.525000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00100103 PRSC PPS PES CCS
+[   12.585000] usb 1-2: new full speed USB device using s3c2410-ohci and address 5
+[   12.585000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   12.770000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   12.770000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   12.770000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   12.770000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   12.795000] s3c2410-ohci s3c2410-ohci: urb c3e86f20 path 2 ep0out 5ec20000 cc 5 --> status -62
+[   13.000000] usb 1-2: device not accepting address 5, error -62
+[   13.000000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.000000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+[   13.005000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.005000] otg_dbg: in root_hub_feature()::00363 => case USB_PORT_FEAT_INDICATOR
+[   13.130000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.130000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+[   13.135000] otg_dbg: in process_port_intr()::00263 => 
+[   13.135000] Port Interrupt() : HPRT = 0x100d
+[   13.135000] otg_dbg: in process_port_intr()::00282 => 
+[   13.135000] Port Interrupt() : HPRT = 0x1008
+[   13.250000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.250000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+[   13.255000] usb 2-1: new high speed USB device using s3c6410_OTGHCD and address 2
+[   13.260000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   13.260000] otg_dbg: in root_hub_feature()::00358 => case SetPortFeature -USB_PORT_FEAT_RESET 
+[   13.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   13.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   13.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   13.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   13.375000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.375000] otg_dbg: in root_hub_feature()::00206 => case ClearPortFeature -USB_PORT_FEAT_C_RESET 
+[   13.380000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   13.385000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   13.415000] usb 2-1: configuration #1 chosen from 1 choice
+[   13.425000] scsi0 : SCSI emulation for USB Mass Storage devices
+[   13.440000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS
+[   13.520000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   13.520000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   13.520000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   13.520000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   13.560000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   13.560000] otg_dbg: in root_hub_feature()::00213 => case ClearPortFeature -USB_PORT_FEAT_C_ENABLE 
+[   18.080000] otg_dbg: in process_port_intr()::00263 => 
+[   18.080000] Port Interrupt() : HPRT = 0x1008
+[   18.080000] otg_dbg: in process_port_intr()::00282 => 
+[   18.080000] Port Interrupt() : HPRT = 0x1008
+[   18.270000] otg_dbg: in get_otg_port_status()::00060 =>  Root port status changed
+[   18.270000] otg_dbg: in get_otg_port_status()::00062 =>   port_connect_status_change: 1
+[   18.270000] otg_dbg: in get_otg_port_status()::00064 =>   port_reset_change: 0
+[   18.270000] otg_dbg: in get_otg_port_status()::00066 =>   port_enable_change: 1
+[   18.270000] otg_dbg: in get_otg_port_status()::00068 =>   port_suspend_change: 0
+[   18.270000] otg_dbg: in get_otg_port_status()::00070 =>   port_over_current_change: 0
+[   18.275000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   18.275000] otg_dbg: in root_hub_feature()::00199 => case ClearPortFeature -USB_PORT_FEAT_C_CONNECTION 
+[   18.280000] otg_dbg: in root_hub_feature()::00173 => case ClearPortFeature
+[   18.280000] otg_dbg: in root_hub_feature()::00213 => case ClearPortFeature -USB_PORT_FEAT_C_ENABLE 
+[   18.285000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   18.290000] usb 2-1: USB disconnect, address 2
+[   18.295000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.305000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.315000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.325000] otg_dbg: in s3c6410_otghcd_endpoint_disable()::00486 => s3c6410_otghcd_endpoint_disable 
+[   18.470000] otg_dbg: in root_hub_feature()::00327 => case SetPortFeature
+[   18.470000] s3c2410-ohci s3c2410-ohci: GetStatus roothub.portstatus [1] = 0x00010100 CSC PPS

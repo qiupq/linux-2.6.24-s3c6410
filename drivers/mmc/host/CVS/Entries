@@ -1,0 +1,24 @@
+/Kconfig/1.5/Mon Apr  7 00:43:28 2008//
+/Makefile/1.2/Mon Mar  3 00:40:28 2008//
+/at91_mci.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/au1xmmc.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/au1xmmc.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/imxmmc.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/imxmmc.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/mmc_spi.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/mmci.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/mmci.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/omap.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pxamci.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/pxamci.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/ricoh_mmc.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/s3c-hsmmc.c/1.54/Tue Aug 26 01:18:29 2008//
+/s3c-hsmmc.h/1.2/Tue Apr  8 01:29:08 2008//
+/s3cmci.c/1.2/Mon Mar  3 00:51:56 2008//
+/s3cmci.h/1.1/Mon Mar  3 00:40:28 2008//
+/sdhci.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/sdhci.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/tifm_sd.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/wbsd.c/1.1.1.1/Mon Feb 18 02:22:58 2008//
+/wbsd.h/1.1.1.1/Mon Feb 18 02:22:58 2008//
+D

@@ -1,0 +1,24 @@
+/Kconfig/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Kconfig.char/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Kconfig.debug/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Kconfig.i386/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Kconfig.net/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Kconfig.x86_64/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-i386/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-ia64/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-os-Linux/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-ppc/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-skas/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-tt/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/Makefile-x86_64/1.1.1.1/Mon Feb 18 02:22:55 2008//
+/defconfig/1.1.1.1/Mon Feb 18 02:22:55 2008//
+D/drivers////
+D/include////
+D/kernel////
+D/os-Linux////
+D/scripts////
+D/sys-i386////
+D/sys-ia64////
+D/sys-ppc////
+D/sys-x86_64////

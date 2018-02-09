@@ -1,0 +1,23 @@
+/Kconfig/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/Makefile/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/acpi-cpufreq.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/cpufreq-nforce2.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/e_powersaver.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/elanfreq.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/gx-suspmod.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/longhaul.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/longhaul.h/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/longrun.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/p4-clockmod.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/powernow-k6.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/powernow-k7.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/powernow-k7.h/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/powernow-k8.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/powernow-k8.h/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/sc520_freq.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/speedstep-centrino.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/speedstep-ich.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/speedstep-lib.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/speedstep-lib.h/1.1.1.1/Mon Feb 18 02:22:56 2008//
+/speedstep-smi.c/1.1.1.1/Mon Feb 18 02:22:56 2008//
+D

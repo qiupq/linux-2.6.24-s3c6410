@@ -1,0 +1,12 @@
+/Kconfig/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/Makefile/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/README/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/core.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/hypercalls.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/interrupts_and_traps.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/lg.h/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/lguest_device.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/lguest_user.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/page_tables.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+/segments.c/1.1.1.1/Mon Feb 18 02:22:57 2008//
+D/x86////
